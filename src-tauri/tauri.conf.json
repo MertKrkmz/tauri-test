@@ -32,7 +32,8 @@
     "category": "DeveloperTool",
     "copyright": "",
     "resources": [
-      "python_scripts/*"
+      "python_scripts/**/*",
+      "resources/icc_profiles/*"
     ],
     "targets": [
       "app",

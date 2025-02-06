@@ -23,6 +23,11 @@ const routes: RouteRecordRaw[] = [
 		name: 'pdf-viewer',
 		component: () => import('./pages/PdfViewer.vue'),
 	},
+	{
+		path: '/image-converter',
+		name: 'image-converter',
+		component: () => import('./pages/ImageConverter.vue'),
+	},
 ]
 
 export const router = createRouter({

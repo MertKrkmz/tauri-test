@@ -16,6 +16,12 @@
 			>
 				PDF Viewer
 			</router-link>
+			<router-link
+				to="/image-converter"
+				class="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700 transition-colors shadow-lg hover:shadow-purple-500/20"
+			>
+				LCMS2
+			</router-link>
 		</div>
 
 		<!-- Image Processing Section -->
